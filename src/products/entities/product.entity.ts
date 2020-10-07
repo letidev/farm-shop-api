@@ -6,9 +6,7 @@ import {
   JoinColumn,
 } from 'typeorm';
 import { ProductTypeEntity } from './product-type.entity';
-import { MoenyTransformer } from '../utils/money-transformer';
-import Big from 'big.js';
-import { Transform } from 'class-transformer';
+import { MoenyTransformer } from '../../common/utils/money-transformer';
 
 @Entity('product')
 export class ProductEntity {
